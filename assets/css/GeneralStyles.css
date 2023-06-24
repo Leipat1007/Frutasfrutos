@@ -1,0 +1,74 @@
+@import url(Variables.css);
+body {
+    font-family: var(--fuente-roboto);
+    background-color: var(--background-body);
+    color: var(--fuente-color-cuerpo);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+}
+.head {
+    display: flex;
+    background-color: var(--background-blanco);
+}
+.head .container {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+}
+.head .container .headNavegacion .headNavegacion-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head .container .headNavegacion .headNavegacion-list .headNavegacion-list-item {
+    margin-right: 1rem;
+}
+.head .container .headNavegacion .headNavegacion-list .headNavegacion-list-item:hover{
+    color: var(--fuente-active);
+    text-decoration: underline;
+}
+.head .container .headNavegacion .headNavegacion-list .headNavegacion-list-item.active {
+    color: var(--fuente-active);
+}
+.footer {
+    display: flex;
+    background-color: var(--background-blanco);
+}
+.footer .container {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.footer .container .footerTitulo {
+    font-weight: 500;
+}
+.footer .container .footerTexto {
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+.footer .container .footerContacto {
+    display: flex;
+}
+.footer .container .footerContacto .footerContacto-list {
+    display: flex;
+}
+.footer .container .footerContacto .footerContacto-list-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container .footerContacto .footerContacto-list-item-link .link-image {
+    width: 45px;
+    height: auto;
+}

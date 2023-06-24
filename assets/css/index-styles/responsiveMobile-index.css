@@ -1,0 +1,50 @@
+@media screen and (min-width: 360px) and (max-width: 809px) {
+    /* responsive head */
+    .head .container .headNavegacion .headNavegacion-list {
+        flex-direction: column;
+        text-align: center;
+    }
+    .head .container .headNavegacion .headNavegacion-list .headNavegacion-list-item {
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--fuente-color-titulo-receta);
+        width: 100%;
+        padding: .7rem;
+    }
+    /* responsive banner */
+    .banner .bannerTitulo {
+        font-size: 2rem;
+    }
+    .sobre .container .sobreTitulo {
+        font-size: 1.5rem;
+    }
+    .sobre .container .sobreDescripcion {
+        font-size: 1rem;
+    }
+    /* responsive recetas */
+    .recetas .container {
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .recetas .container .receta {
+        width: 70%;
+    }
+    /* responsive quienes */
+    .quienes .container {
+        text-align: center;
+    }
+    .quienes .container .quienesTitulo {
+        font-size: 2.5rem;
+    }
+    .quienes .container .personas .persona .quienesImagen {
+        width: 150px;
+        height: 150px;
+    }
+    /* responsive footer */
+    .footer .container {
+        flex-direction: column;
+    }
+    .footer .container .footerTexto {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}

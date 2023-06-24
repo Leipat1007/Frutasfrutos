@@ -1,0 +1,12 @@
+:root {
+    --background-body : #ffffff;
+    --background-blanco : #f9f9f9;
+    --background-recetas : #dab997;
+    --fuente-color-cuerpo : #808080;
+    --fuente-active : #333333;
+    --fuente-color-titulo-receta : #4d4d4d;
+    --fuente-color-titulo : #fdfdfd;
+    --fuente-color-titulo-rojo : #DA2B1F;
+    --fuente-pacifico : 'Pacifico', sans-serif;
+    --fuente-roboto : 'Roboto', sans-serif;
+}

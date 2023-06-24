@@ -1,0 +1,11 @@
+.sobreTitulo {
+    font-family: var(--fuente-pacifico), cursive;
+    color: var(--fuente-color-titulo-rojo);
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.sobreDescripcion {
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 1.5;
+}

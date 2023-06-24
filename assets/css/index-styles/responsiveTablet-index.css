@@ -1,0 +1,43 @@
+@media screen and (max-width:1024px) {
+    /* Responsive head */
+    .head .container .headLogo {
+        display: none;
+    }
+    .head .container .headNavegacion {
+        width: 100%;
+    }
+    /* Responsive banner */
+    .banner {
+        height: calc(60vh - 150px);
+    }
+    .banner .bannerTitulo {
+        font-size: 4rem;
+    }
+    /* Responsive sobre nosotros */
+    .sobre .container {
+        text-align: center;
+    }
+    .sobre .container .sobreTitulo {
+        font-size: 2.5rem;
+    }
+    .sobre .container .sobreDescripcion {
+        font-size: 1.2rem;
+    }
+    /* Responsive quienes */
+    .quienes .container .quienesTitulo {
+        font-size: 4rem;
+    }
+    .quienes .container .quienesDescripcion {
+        font-size: 1.1rem;
+    }
+    .quienes .container .personas {
+        flex-direction: column;
+    }
+    .quienes .container .personas .persona {
+        margin-bottom: 2rem;
+    }
+    .quienes .container .personas .persona .quienesImagen {
+        width: 250px;
+        height: 250px;
+    }
+}

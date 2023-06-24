@@ -1,0 +1,52 @@
+.quienes .container .quienesTitulo {
+    font-family: var(--fuente-pacifico);
+    font-size: 5.60rem;
+    color: var(--fuente-color-titulo-rojo);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.quienes .container .quienesDescripcion {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-top: 1.5rem;
+}
+.quienes .container .personas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+.quienes .container .personas .persona {
+    text-align: center;
+}
+.quienes .container .personas .persona .quienesImagen {
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.roberta{
+    background-image: url(../../img/personas/roberta.jpg);
+}
+.marcela{
+    background-image: url(../../img/personas/marcela.jpg);
+}
+.andreia {
+    background-image: url(../../img/personas/andrea.jpg);
+}
+.quienes .container .personas .persona .quienesNombre {
+    font-family: var(--fuente-pacifico);
+    color: var(--fuente-color-titulo-rojo);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.quienes .container .personas .persona .quienesFuncion {
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    font-weight: 100;
+}
